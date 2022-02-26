@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: CourierPrime;
+    src: url('../assets/font/CourierPrime-Regular.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: AlfaSlabOne;
+    src: url('../assets/font/AlfaSlabOne-Regular.ttf') format('ttf');
+  }
+  body {
+    font-family: 'Courier Prime', monospace;
+  }
+  button {
+    font-family: 'Alfa Slab One', cursive;
+  }
+}
